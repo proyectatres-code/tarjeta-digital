@@ -2,40 +2,10 @@ BEGIN:VCARD
 VERSION:3.0
 N:Tenorio;Rocío del Pilar;;;
 FN:Rocío del Pilar Tenorio
-ORG:Tenorio Digital Solutions
-TITLE:Desarrolladora Web & Diseñadora
-TEL;TYPE=CELL:+1 (555) 123-4567
+ORG:Ashimori Industria de México
+TITLE:Gerente de Contabilidad y Finanzas
+TEL;TYPE=CELL,VOICE:+524776771008
 EMAIL;TYPE=INTERNET:rocio@ejemplo.com
-URL:https://www.rociotenorio.com
-ADR;TYPE=WORK:;;123 Main Street;Ciudad;Estado;12345;
+URL:https://ashimori.com.mx/
+ADR;TYPE=WORK:;;Circuito San Roque Norte #345;Silao;Guanajuato;36275;México
 END:VCARD
-
- function shareCard() {
-            if (navigator.share) {
-                navigator.share({
-                    title: document.getElementById('name').textContent,
-                    text: `Tarjeta digital de ${document.getElementById('name').textContent}`,
-                    url: window.location.href
-                });
-            } else {
-                navigator.clipboard.writeText(window.location.href);
-                showToast('Enlace copiado al portapapeles');
-            }
-        }
-
-
-/* Splash Screen */
-        #splash {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(135deg, #1e88e5 0%, #1565c0 100%);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            z-index: 9999;
-            animation: fadeOut 0.5s ease-in-out 2.5s forwards;
-        }
