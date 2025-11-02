@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Tenorio;Rocío del Pilar;;;
+FN:Rocío del Pilar Tenorio
+ORG:Ashimori Industria de México
+TITLE:Gerente de Contabilidad y Finanzas
+TEL;TYPE=CELL,VOICE:+524776771008
+EMAIL;TYPE=INTERNET:rocio@ejemplo.com
+URL:https://ashimori.com.mx/
+ADR;TYPE=WORK:;;Circuito San Roque Norte #345;Silao;Guanajuato;36275;México
+END:VCARD
